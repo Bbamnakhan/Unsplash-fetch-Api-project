@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+
+p {
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    color: blue;
+    padding: 10px;
+}
+
+.inputdiv {
+    width: 600px;
+    height: 80px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+input {
+    height: 60px;
+    width: 450px;
+    background-color: white;
+    border: 2px solid black;
+    font-size: 16px;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: white;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    padding: 12px 24px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: #080808;
+    color: white;
+}
+
+.search-image {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+    padding: 20px;
+}
+
+.imageResult {
+    margin-bottom: 20px;
+    width: 30%;
+    height: 300px; 
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.imageResult img {
+    width: 100%;
+    height: 80%; 
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+.imageResult:hover {
+    transform: translateY(-5px);
+}
+
+.imageResult:hover img {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
+.imageResult a {
+    font-family: sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#btn1 {
+    background-color: #008cba;
+    font-size: 18px;
+    border: none;
+    color: #fff;
+    padding: 12px 24px;
+    text-align: center;
+    display: block;
+    margin: 30px auto;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: none; 
+}
+
+#btn1:hover {
+    background-color: #006687;
+}
